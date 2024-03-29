@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="resume.css">
+</head>
+<body>
+	<header>
+		<div class="head">
+			<div class="box">
+				<h1>MAKE YOUR RESUME HERE</h1>
+			</div>
+		</div>
+	</header>
+	
+	<form id="resume-form">
+		<label for="name"><i>Name:</i></label><br>
+		<input type="text" id="name" name="name"><br>
+		<label for="email"><i>Email:</i></label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="experience"><i>Years of Experience</i>:</label><br>
+		<input type="number" id="experience" name="experience" min="0" max="50"><br>
+		<label for="skills"><i>Qualification:</i></label><br>
+		<textarea id="skills" name="skills" rows="4" cols="50"></textarea><br>
+		<label for="contactDet"><i>Contact Details:</i></label>
+		<input id="Contact" style=" margin-bottom:30px;" type="numbers" maxlength="10"><br>
+		
+		<label for="Cvv"><i>Upload Cvv</i></label><br>
+		<input style="padding: 10px;" type="file"><br>
+
+		<label for="skills"><i>Skills</i></label><br>
+		<input type="text">
+		<input type="submit" value="Submit">
+	</form>
+	<footer class="black">
+		<div id="progress-bar"></div>
+	</footer>
+</body>
+</html>
