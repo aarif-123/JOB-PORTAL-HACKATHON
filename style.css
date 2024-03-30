@@ -6,6 +6,7 @@
 html, body {
 	font-family :'Roboto', sans-serif, arial;
 	font-size: 15px;
+	/* background-color: #bfc3d7; */
 }
 .container {
 	width: 1170px;
@@ -13,16 +14,25 @@ html, body {
 }
 .width-100 {
 	width: 100%;
-	float: left;
+	float: right;
 }
 
+#nav{
+	background-color: rgb(14, 140, 189);
+	border-radius:25px;
+	padding:10px;
+	padding-right:100px;
+	/* opacity: 100%; */
+}
 
 .tit{
+	width:auto;
     padding-left:50px;
 	padding-top: 25px;
 	padding-bottom: 20px;
 	font-weight: 40em;
-	background-color: #1650e2;
+	border-radius: 10px;
+	background-color: #0c1ee3;
 }
 .width-66 {
 	width: 66%;
@@ -50,6 +60,7 @@ html, body {
 }
 .width-25 {
 	width: 25%;
+	/* height:20vh; */
 	float: left;
 }
 /*****HEADER SECTION*****/
@@ -73,23 +84,27 @@ html, body {
 	padding: 10px;
 }
 .button-job-post {
-	background-color: #e34216;
+	background-color: rgb(255,0,0);
+
 	color: white;
 	border: none;
 	border-radius: 2px;
 	font-size: 14px;
 	float: left;
 	padding: 10px;
+	margin:10px;
 	text-decoration: none;
+	border-radius: 20px;
 }
 .button-resume {
-	background-color: #17acda;
+	background-color: #00c3ff;
 	color: white;
+	border-radius: 20px;
 	border: none;
-	border-radius: 2px;
 	font-size: 14px;
 	float: left;
 	margin-left: 10px;
+	margin:10px;
 	padding: 10px;
 	text-decoration: none;
 }
